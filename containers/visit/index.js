@@ -9,40 +9,19 @@ function VisitPage() {
 
         <div className="flex flex-col justify-center pt-10 px-5 pb-5">
 
-        <Ads display={true} data-ad-slot="2593755237" />
-        
+          <Ads display={true} data-ad-slot="2593755237" />
+
           <div className="text-black font-bold pb-2 text-[25px]">
-            3 Ways to Earn Lots of Free Diamonds in Free Fire!
+            How to Earn Robux With Balance Apps
           </div>
           <p className="text-primary4 text-left pb-[25px]">
-            Discover three excellent methods for getting lots of free diamonds in. First, earn PayPal balance with the Dreame app.
+            Above, we've listed some of the best ways to get Robux within Roblox itself, but these aren't the only ways to get Robux for free. After all, there is still an external way of applying the balance.
           </p>
-
-
-
-          <a href="/diamondcodes" className="px-8">
-            <button className="bg-primary5 rounded-md flex items-center justify-between w-full text-white px-8 py-2 font-bold text-[22px] mt-5">
-              TesoroBlass
-              <span className="ml-2 flex items-center">
-                <img src="/gameImage/svg/true.svg" alt="true" className="h-5 w-5" />
-              </span>
-            </button>
-          </a>
-          <a href="/freefire">
-            <div>
-              <button className="bg-primary5 rounded-md flex items-center justify-between w-full text-white px-4 py-2 font-bold text-[20px] mt-5">
-                Diamond Codes on Free Fire
-                <span className="ml-2 flex items-center">
-                  <img src="/gameImage/svg/true.svg" alt="true" className="h-5 w-5" />
-                </span>
-              </button>
-            </div>
-          </a>
 
           <a href="/diamondcodes">
-            <div className="px-8">
-              <button className="bg-primary5 rounded-md flex items-center justify-between w-full text-white px-8 py-2 font-bold text-[22px] mt-5">
-                apkys xyz
+            <div className="flex items-center justify-center">
+              <button className="bg-primary5 rounded-md flex items-center justify-center text-white px-5 py-2 font-bold text-[22px] mt-5">
+                Free Robux Codes
                 <span className="ml-2 flex items-center">
                   <img src="/gameImage/svg/true.svg" alt="true" className="h-5 w-5" />
                 </span>
@@ -52,104 +31,74 @@ function VisitPage() {
 
 
           <p className="pt-5 text-primary4">
-            Then take advantage of redeeming codes on Rewards FF and, finally, reload the game on Garena's official sites to maximize your rewards!
-          </p>
-          <p className="pt-5 text-primary4">
-            In times of crisis, finding alternatives to earning free diamonds in Free Fire is essential, isn't it? So, find out now about some great ways to get lots of Diamonds without risking your account!
-          </p>
-          <p className="pt-5 text-primary4">
-            One of the best-known ways of doing this recently is through apps that offer rewards in app coins when you carry out certain activities. These coins, once they reach a certain amount, can be converted into real money and transferred to a bank account, or converted into a PayPal or Play Store balance.
-          </p>
-          <p className="pt-5 text-primary4">
-            Among the most recognized apps, we have Kawai, for example. However, today we're going to discuss something new: Dreame!
+            These apps offer players a balance that can be redeemed for a prepaid card or a gift voucher that can be redeemed for Robux in the app store. Anyway, here are some options for these apps.
           </p>
 
+          <div className=" text-black pt-5 font-bold  text-[24px]">
+            PiniOn
+          </div>
+          <img src="/gameImage/rbxImageThree.jpeg" />
+          <p className="pt-5 text-center text-primary4">PiniOn app - Get a balance with "opinions" - Playback/Google</p>
 
-          <a href="/">
-            <div className="" >
-              <img src="/gameImage/Free-Diamond-Free-Fire-Trick.png" className="h-[200px] pt-5" />
-            </div>
-          </a>
+          <p className="pt-5 text-primary4">
+            Complete missions and earn rewards! The PiniOn App is a great opportunity to earn money by meeting certain requirements. After downloading and registering the app, you will receive a series of missions, each of which will give the user a different reward.
+          </p>
+          <p className="pt-5 text-primary4">
+            The missions are mainly related to expressing opinions about a particular brand, product or establishment (hence the name PiniOn). This can range from taking photos of products and places to, say, going to a restaurant and evaluating the place and dining
+          </p>
+          <p className="pt-5 text-primary4">
+            If each mission is carried out correctly, the balance is returned to the user and, in the example of the dinner, the cost can be deducted in full. As you complete missions, your profile "evolves" and you gain access to better missions.
+          </p>
+          <p className="pt-5 text-primary4">PiniOn is available for Android and iOS smartphones. Download it using the button below.</p>
+
+
+
 
           <div className="text-black pt-5 font-bold pb-2 text-[25px]">
-            About the Dreame App
+           How To Redeem Your PiniOn App Balance  
           </div>
           <p className="text-primary4">
-            Surely you're already aware of at least one app that promises to offer you a balance when you fulfill certain requirements, such as answering surveys, downloading games, registering with companies, and so on. However, Dreame, while following the same premise, stands out for its totally innovative approach.
+            A certain minimum amount must be reached in order to withdraw your balance from the PiniOn app. This amount varies by country and is deducted from your PayPal account or bank transfer. As long as the account has the name of the profile used in the app.
           </p>
+         
+          <div className=" text-black pt-5 font-bold  text-[24px]">
+           Foap
+          </div>
+          <img className="pt-5" src="/gameImage/rbxImageFour.webp"/>
+               <p className="pt-5 text-center text-primary4">Foap app - Earn money by selling your photos - Playback/Google</p>
           <p className="pt-5 text-primary4">
-            To get coins in Dreame, all you have to do is read! That's right, read books! For lovers of reading, the app is perfect. However, it's also excellent for anyone, since reading is fundamental and contributes significantly to quality of life.
+            Finally, a good app for raising extra money and buying Robux on Roblox is Foap. In this game, use your photography skills to take the best photos with your smartphone and publish them on the app for sale.
           </p>
 
+     <p className="pt-5 text-primary4">For those who love photography and want to discover a new profession as a photographer or at least develop a new hobby in addition to acquiring Robux, this is a good opportunity. Send as many photos as you like with no limit, then go and take some pictures.</p>
+          <p className="pt-5 text-primary4">Image quality is crucial in marketing strategies. In addition to sharpness, stand out from the crowd with creativity. In the midst of thousands of images, differentiation is essential. However, go beyond technique; try to provoke emotions.</p>
+               <p className="pt-5 text-primary4">An impactful image is not only visually appealing, but also conveys feelings - be it contagious joy or melancholy reflection. When choosing images, opt for those that not only capture moments, but tell stories and connect emotionally with the target audience.</p>
+         
+         
           <Ads
-          data-ad-slot="3067284912"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        />
+            data-ad-slot="3067284912"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          />
 
-          <div className="text-black pt-5 font-bold pb-2 text-[26px]">
-            Discover Ways to Get Balance at Dreame!
-          </div>
-          <p className="text-primary4">
-            1 - The first step, without a doubt, is to download the app! To make it easier, I'll provide the download link here:
-          </p>
-          <p className="text-primary4 pt-5">
-            3 - Now comes the crucial step. In the panel at the bottom of the application screen, select the last option "My". When you do, you'll notice that you're logged in as a visitor. Then click on the image of the Unicorn to sign up for an account. You can create the account using a social network or your e-mail address.
-          </p>
-          <p className="text-primary4 pt-5">
-            4 - In the "My" section, when you access your account, you will see several tabs; select "Earn Rewards". Then choose the "Tasks" tab. By completing these tasks, you will accumulate points, which are updated daily.
-          </p>
-          <p className="text-primary4 pt-5">
-            5 - Of course, we can't fail to mention the option of referring the application to a friend. After all, this is often the one with the fastest results.
-          </p>
-
-
+         
 
           <div className="text-black pt-5 font-bold pb-2 text-[25px]">
-            Redeeming Your Balance
+           How To Redeem Your Foap Application Balance
           </div>
           <p className="text-primary4">
-            To redeem your balance, it is essential to have a PayPal account. If you don't already have one, create an account! Once you have enough points, navigate to the "Benefits" panel and withdraw.
+There is no minimum withdrawal amount in this app. Thanks to the integration of our PayPal account, image sales go directly to your account.
           </p>
           <a href="/diamondcodes">
-            <button className="bg-primary5 rounded-md flex items-center justify-between w-full text-white px-8 py-2 font-bold text-[22px] mt-5">
-              Diamond Codes on Free Fire
+            <button className="bg-primary5 rounded-md flex items-center justify-between w-full text-white px-4 py-2 font-bold text-[22px] mt-5">
+             New Free Robux Codes
               <span className="ml-2 flex items-center">
                 <img src="/gameImage/svg/true.svg" alt="true" className="h-5 w-5" />
               </span>
             </button>
           </a>
-
-          <div className="pt-5 font-bold">
-            <div className="font-bold text-[30px] md:text-[25px]">Download App and get Free 5000 Diamond 💎</div>
-            <a href="https://play.google.com/store/apps/details?id=com.skintool.diamond.newemote">
-              <div >
-                <img src="/gameImage/unnamed.png" className="h-[200px] mt-5" />
-              </div>
-            </a>
-            <a href="https://play.google.com/store/apps/details?id=com.skintool.diamond.newemote">
-              <div className="flex item-center  justify-center pt-5">
-                <button type="button" className="btn btn-pulse bg-primary5  rounded-md flex items-center justify-between text-white px-8 py-2 font-bold md:text-[20px] mt-5">
-                INSTALL APP 💎
-                </button>
-              </div>
-            </a>
-
-
-            <p className='pt-5 text-primary4'><strong className="text-[20px] md:text-[18px]">Step 1 : </strong> Click the above button to download the App.
-            </p>
-            <p className='pt-5 text-primary4'><strong className="text-[20px]  md:text-[18px]">Step 2 : </strong> Open the App and use it for 5 Days.
-            </p>
-            <p className='pt-5 text-primary4'><strong className="text-[20px]  md:text-[18px]">Step 3 : </strong>  After the Completion of the 5th Day You will get redemption.
-            </p>
-            <p className='pt-5 text-primary4'><strong className="text-[20px]  md:text-[18px]">Step 4 : </strong> You just have to copy and paste it to our site for redemption And you get 5000 Diamond 💎 in your Free Fire Account.
-            </p>
-
-          </div>
-
-          <p className="text-primary4 pt-5">
-            This way, you can use your PayPal balance obtained through the Dreame app to buy Diamonds on Free Fire. However, if you're looking for another method...
-          </p>
+                 <p className="pt-5 text-primary4">But what do these apps have to do with our article on how to get Robux for free? Simply use your extra time to build up your balance. If you have the balance, buy Robux at Roblox!</p>
+          
         </div>
       </div>
     </Fragment>
