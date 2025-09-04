@@ -26,34 +26,6 @@ function Home() {
         <div className="flex flex-col  justify-center pt-10 px-5 pb-5">
           <Ads display={true} data-ad-slot="2593755237" />
 
-          {/* 
-          <div className="pt-5 font-bold">
-            <div className="font-bold text-[30px] md:text-[25px]">Download App and get Free 5000 Diamond 💎</div>
-            <a href="https://play.google.com/store/apps/details?id=com.skintool.diamond.newemote">
-              <div >
-                <img src="/gameImage/unnamed.png" className="h-[200px] mt-5" />
-              </div>
-            </a>
-            <a href="https://play.google.com/store/apps/details?id=com.skintool.diamond.newemote">
-              <div className="flex item-center  justify-center pt-5">
-                <button type="button" className="btn btn-pulse  bg-primary5 rounded-md flex items-center justify-between text-white  px-4 py-2 font-bold md:text-[20px]  mt-5">
-                  INSTALL APP 💎
-                </button>
-              </div>
-            </a>
-
-
-            <p className='pt-5 text-primary4'><strong className="text-[20px] md:text-[18px]">Step 1 : </strong> Click the above button to download the App.
-            </p>
-            <p className='pt-5 text-primary4'><strong className="text-[20px]  md:text-[18px]">Step 2 : </strong> Open the App and use it for 5 Days.
-            </p>
-            <p className='pt-5 text-primary4'><strong className="text-[20px]  md:text-[18px]">Step 3 : </strong>  After the Completion of the 5th Day You will get redemption.
-            </p>
-            <p className='pt-5 text-primary4'><strong className="text-[20px]  md:text-[18px]">Step 4 : </strong> You just have to copy and paste it to our site for redemption And you get 5000 Diamond 💎 in your Free Fire Account.
-            </p>
-
-          </div> */}
-
           <div className=" text-black  font-bold pb-2 text-[25px] pt-5">
             How to Earn Robux in Roblox: Tips and Tricks
           </div>
@@ -168,6 +140,10 @@ function Home() {
           </a>
           <p className="pt-5 text-primary4"> Now that you've discovered the secrets of free diamonds in Free Fire and understand why these methods are essential to enhancing your gaming experience, it's time to take action! Don't waste any more time! Click on the button below and find out everything!</p>
 
+<a href="/disclaimer"> 
+   <p className="pt-5 text-center underline  text-[18px] text-red-500 ">Disclaimer </p>
+
+  </a>         
         </div>
 
       </div>

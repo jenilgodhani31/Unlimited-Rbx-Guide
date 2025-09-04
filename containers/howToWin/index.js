@@ -21,7 +21,7 @@ function HowToWin() {
                     <p className="text-primary4 text-left pb-[25px]">
                         Get ready to embark on a journey filled with unlimited gaming experiences, where you can create your own content, make new friends and venture into epic worlds.
                     </p>
-                    <a href="/vist" className="flex items-center justify-center">
+                    <a href="/visit" className="flex items-center justify-center">
                         <button className="bg-primary5 rounded-md flex items-center justify-between  text-white px-4 py-2 font-bold text-[22px] mt-5">
                             Robux codes
                             <span className="ml-2 flex items-center">
@@ -119,7 +119,7 @@ function HowToWin() {
                     </div>
                     <p className="pt-5 text-primary4">The time has come to make the choice that will transform your Roblox experience forever. Don't let the search for Robux get in the way of your fun and passion for the game. This revolutionary method offers a unique way to achieve your goals quickly and effectively</p>
 
-                    <a href="/vist" className="flex items-center justify-center">
+                    <a href="/visit" className="flex items-center justify-center">
                         <button className="bg-primary5 rounded-md flex items-center justify-between  text-white px-4 py-2 font-bold text-[22px] mt-5">
                             Robux codes
                             <span className="ml-2 flex items-center">
