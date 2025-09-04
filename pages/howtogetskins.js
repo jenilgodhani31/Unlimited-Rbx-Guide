@@ -1,8 +1,8 @@
-import Freefire from "@containers/freefire";
+import HowToGetSkins from "@containers/howToGetSkins";
 import Head from "next/head";
 import { Fragment } from "react";
 
-function freefire() {
+function howtogetskins() {
   return (
     <Fragment>
       <Head>
@@ -11,10 +11,10 @@ function freefire() {
           crossorigin="anonymous"></script>
       </Head>
       <div>
-        <Freefire />
+        <HowToGetSkins />
       </div>
     </Fragment>
   );
 }
 
-export default freefire;
+export default howtogetskins;

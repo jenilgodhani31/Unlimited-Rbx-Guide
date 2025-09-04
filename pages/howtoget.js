@@ -1,8 +1,8 @@
-import Freefire from "@containers/freefire";
+import HowToGet from "@containers/howToGet";
 import Head from "next/head";
 import { Fragment } from "react";
 
-function freefire() {
+function howtoget() {
   return (
     <Fragment>
       <Head>
@@ -11,10 +11,10 @@ function freefire() {
           crossorigin="anonymous"></script>
       </Head>
       <div>
-        <Freefire />
+        <HowToGet />
       </div>
     </Fragment>
   );
 }
 
-export default freefire;
+export default howtoget;

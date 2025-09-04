@@ -1,27 +1,7 @@
 import Ads from '@components/Ads';
-import React, { Fragment, useState } from 'react'
+import React, { Fragment } from 'react'
 
 function DiamondCodes() {
-  const [isOpen, SetIsOpen] = useState(false)
-  const [giftCode, setGiftCode] = useState('')
-
-  function generateCode() {
-    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
-    let code = '';
-    for (let i = 0; i < 16; i++) {
-      code += characters[Math.floor(Math.random() * characters.length)];
-      // Add a space after every 4 characters, except at the end
-      if ((i + 1) % 4 === 0 && i < 15) {
-        code += ' ';
-      }
-    }
-    return code;
-  }
-  function handelClick() {
-    const newCode = generateCode();
-    setGiftCode(newCode)
-    SetIsOpen(true)
-  }
   return (
     <Fragment>
       <div className="mx-auto  ls:w-[360px]  bg-white">
@@ -30,97 +10,47 @@ function DiamondCodes() {
 
           <Ads display={true} data-ad-slot="2593755237" />
 
-          <div className=" text-black  font-bold pb-2 text-[25px]">
-            3 Ways to Earn Lots of Free Diamonds in Free Fire!
-          </div>
-
-
-          <div className="text-black font-bold text-left  pt-5 pb-[5px] text-[20px]">
-            Google Pay gift card code generator
-          </div>
-          <p className="pt-5 text-primary4">Our latest code that visitors use:</p>
-
-          <div className="flex item-center  justify-center">
-            <button type="button" onClick={() => handelClick()} className="bg-primary5  rounded-md flex items-center justify-between text-white px-8 py-2 font-bold text-[20px] mt-5">
-              Generate Code
-            </button>
-          </div>
-          {isOpen && (
-            <p className="pt-5 flex-col text-center text-[22px] text-primary6">Seu código de gift card é:<samp className="font-bold"> "{giftCode}" </samp></p>
-          )
-
-          }
-
-          <p className="pt-5 text-primary4">See here and try <samp className="font-bold">"YF7I Q6MM BD0C DI02" </samp></p>
-
-
           <div className="flex left-0 text-black pt-5 font-bold pb-2 text-[25px]">
-            New codes are available every Tuesdays
+            Rescue Robux and Skins in Roblox
           </div>
 
+          <p className="pt-5 text-primary4">Here you'll find information on methods for getting Robux. If you want to know all the methods, click on "Free Robux". If you have any questions, read to the end!</p>
 
-
-          <a href='/'>
-            <button className="bg-primary5  rounded-md flex items-center justify-between w-full text-white px-8 py-2 font-bold text-[22px] mt-5">
-              Diamond Codes on Free Fire
+          <a href='/howtoget'
+            className='flex items-center justify-center '
+          >
+            <button className="bg-primary5  rounded-md flex items-center justify-center  text-white px-8 py-2 font-bold text-[22px] mt-5">
+              HOW TO RESCUE
               <span className="ml-2 flex items-center">
                 <img src="/gameImage/svg/true.svg" alt="true" className="h-5 w-5" />
               </span>
             </button>
           </a>
 
-
-
-          <div className="flex left-0 text-black pt-5 font-bold pb-2 text-[25px]">
-            How to Use a Diamond Generator in Your Favorite Game
-          </div>
-          <p className='pt-5 text-primary4'>Diamond generators are tools widely used by players to acquire valuable resources in their favorite games.</p>
-          <p className="pt-5 text-primary4">If you want to maximize your gaming experience without spending real money, follow these simple steps to use a Diamond Generator.</p>
-
-
-          <a href="/">
-            <div className="" >
-              <img src="/gameImage/Free-Fire-Redeem-Code.jpg" className="h-[200px] pt-5" />
-            </div>
-          </a>
-
-          <div className=" text-black pt-5 font-bold pb-2 text-[26px]">
-            Step 1: Research and Choose a Reliable Generator
-          </div>
-          <p className='pt-5 text-primary4'>Before you start, it's essential to research and select a reliable and safe diamond generator. Read comments and opinions from other users online to ensure its legitimacy and effectiveness.</p>
-          <p className=" text-primary4">Make sure you choose a generator that is compatible with your specific game and is up-to-date to avoid problems.</p>
-
-
-          <div className=" text-black pt-5 font-bold pb-2 text-[26px]">
-            Step 2: Access the Diamond Generator
-          </div>
-          <p className='pt-5 text-primary4'>Once you've chosen a suitable diamond generator, access its platform via your browser or mobile app. Some generators may require you to create an account, while others allow anonymous access. Follow the instructions provided to access the generator.</p>
-
+          <p className="pt-5 text-primary4">Do you love playing Roblox and are always looking for ways to earn more Robux to improve your gaming experience? We know that the traditional process can be time-consuming and daunting, but we have a solution for you. We present an effective and innovative approach that will elevate your Roblox journey, allowing you to reach new heights of fun and success.</p>
+          <p className="pt-5 text-primary4">With these efficient methods, your Roblox adventure will be full of fun and, above all, Robux to spend as you please!</p>
 
           <div className="flex left-0 text-black pt-5 font-bold pb-2 text-[25px]">
-            How to Use Gift Certificate Codes on Free Fire
+            Roblox And The Search For Robux
           </div>
-          <p className='pt-5 text-primary4'><strong>Step 1:</strong> Open the Google Play Store </p>
-          <p className='pt-5 text-primary4'>Launch the Google Play Store app on your Android device and make sure you are logged into the correct Google account. </p>
+          <p className='pt-5 text-primary4'>Roblox is an online gaming platform that has won over millions of players around the world. Here, you can create, explore and play in an infinite variety of virtual worlds, each with its own gameplay and challenges. And, of course, we all know how important Robux are in this universe.</p>
+          <p className="pt-5 text-primary4">Robux function as Roblox's virtual currency, allowing you to purchase accessories, special items and unique customizations for your avatars. However, the search for Robux can often be frustrating and time-consuming, which can get in the way of the fun that the game offers.</p>
 
-          <p className='pt-5 text-primary4'><strong>Step 2:</strong>  Redeem Gift Certificate Code </p>
-          <p className='pt-5 text-primary4'>In the top right corner, click on your profile icon. </p>
-          <p className='pt-5 text-primary4'>Then choose "Payments and <br></br> subscriptions" from the menu. </p>
-          <p className='pt-5 text-primary4'>Tap on "Redeem code" on the next screen, enter the code (e.g. "YF7I Q6MM BD0C DI02") and press "Redeem".</p>
+          <div className=" text-black pt-5 font-bold pb-2 text-[26px]">
+            The Innovative Solution
+          </div>
+          <p className='pt-5 text-primary4'>We present to you an innovative way to earn more Robux and enhance your Roblox experience. Imagine a method that offers an exciting and effective alternative to enriching your Robux account, without the complications and delays you already know. With our method, you'll be able to concentrate on what really matters: immersing yourself in the world of Roblox and enjoying the game you love to the full.</p>
 
-
-          <p className='pt-5 text-primary4'><strong>Step 3:</strong> Confirm redemption </p>
-          <p className='pt-5 text-primary4'>Check the information displayed and confirm by tapping "Confirm".</p>
-          <p className='pt-5 text-primary4'>The balance of the gift certificate will be added to your Google Play account. </p>
-
-
-          <p className='pt-5 text-primary4'><strong>Step 4:</strong>   Open Free Fire </p>
-          <p className='pt-5 text-primary4'>Launch the Free Fire app on your device, making sure you are logged into your account. </p>
+          <div className=" text-black pt-5 font-bold pb-2 text-[26px]">
+            Advantages of using these methods
+          </div>
+          <p className='pt-5 text-primary4'>By choosing this unique approach to getting more Robux, you'll be securing exclusive advantages that will make your Roblox journey much more exciting:</p>
 
 
-          <p className='pt-5 text-primary4'><strong>Step 5:</strong>Buy diamonds</p>
-          <p className='pt-5 text-primary4'>On the Free Fire home screen, click on the diamond icon and choose the quantity you want to buy.</p>
-          <p className='pt-5 text-primary4'>This will open the Google Play screen to make the payment. </p>
+          <p className='pt-5 text-primary4'><strong>Efficiency: </strong>Say goodbye to conventional and time-consuming ways of earning Robux.</p>
+          <p className='pt-5 text-primary4'><strong>Experience: </strong>With more Robux at your disposal, you'll be able to enjoy the customization options and improvements you've always wanted for your avatars and worlds in Roblox.</p>
+          <p className='pt-5 text-primary4'><strong>Fun: </strong>Eliminate the frustration of getting stuck in methods that don't work. Focus on having fun, exploring new games, challenges and interactions within Roblox</p>
+
 
 
           <Ads
@@ -129,76 +59,31 @@ function DiamondCodes() {
             data-full-width-responsive="true"
           />
 
-          <p className='pt-5 text-primary4'><strong>Step 6:</strong>Checkout</p>
-          <p className='pt-5 text-primary4'>On the Google Play screen, select "Payment methods" and confirm that the Google Play balance (added with the gift certificate) is selected.</p>
-          <p className='pt-5 text-primary4'>Proceed to confirm the purchase, which will be deducted from your balance. </p>
-          <p className='pt-5 text-primary4'>Once the purchase is complete, the diamonds will be added to your Free Fire account.</p>
-
+          <div className="flex left-0 text-black pt-5 font-bold pb-2 text-[25px]">
+            Methods
+          </div>
+          <p className="pt-5 text-primary4">Participation in Special Events: Engaging in special events provides a dynamic approach to earning Robux. In addition to the Robux you acquire, you get involved in exciting challenges that add variety to your gaming experience.</p>
+          <p className="pt-5 text-primary4">Creating and Trading Personalized Items: Creating and trading custom items not only rewards you with Robux, but also allows you to express your creativity. It also enables unique interactions with other players through trade.</p>
+          <p className="pt-5 text-primary4">Game Development and Access Selling: If you're a development enthusiast, this approach offers rewards beyond Robux. You can gain recognition by creating exciting games and increase your earnings at the same time.</p>
+          <p className="pt-5 text-primary4">Affiliate Programs and Promotion: Participating in affiliate programs not only enriches your Robux account, but also gives you the opportunity to influence the community.</p>
 
 
           <div className="flex left-0 text-black pt-5 font-bold pb-2 text-[25px]">
-            Using the Diamond Generator
+            Discover a New Path Ter Robux
           </div>
-          <p className=" text-primary4 pt-5">hen accessing the Diamond Generator, select the game you want and the platform you're playing on, such as Android or iOS. It's important to enter the correct information to ensure compatibility and the delivery of resources.</p>
-          <p className="pt-5 text-primary4"> Then specify the number of diamonds you want to generate. Be careful, as requesting excessive amounts could raise suspicions and compromise your account. Follow the generator's instructions to enter the desired amount safely.</p>
+          <p className=" text-primary4 pt-5">Now is the time to make the choice that will transform your Roblox experience forever. Don't let the search for Robux spoil your fun and enthusiasm for the game. This method offers a unique way to achieve your goals quickly and effectively.</p>
 
 
-
-          <div className="flex left-0 text-black pt-5 font-bold pb-2 text-[25px]">
-            Human verification (if necessary)
-          </div>
-          <p className=" text-primary4 pt-5">Some generators may ask you to complete a quick check to prevent abuse. This may include filling in a survey, downloading an application or similar actions. Follow the guidelines provided by the generator to complete this step.</p>
-
-
-
-          <div className="flex left-0 text-black pt-5 font-bold pb-2 text-[25px]">
-            Manage Your Diamondss
-          </div>
-          <p className=" text-primary4 pt-5">To reach higher ranks quickly in Free Fire, it's essential to master certain advanced strategies and techniques that will allow you to stand out on the battlefield. Below are some essential tips that will help you improve your performance and rise through the ranks in Free Fire.</p>
-          <p className="pt-5 text-primary4"> After verification if required, start the diamond generation process. The time required may vary, so wait until you receive confirmation that your diamonds have been successfully generated.</p>
-
-
-          <div className="flex left-0 text-black pt-5 font-bold pb-2 text-[25px]">
-            Enjoy Your Diamonds and Play Responsibly
-          </div>
-          <p className="pt-5 text-primary4"> Congratulations! Now that you have your diamonds, use them to improve your gaming experience. However, it is essential to play responsibly and not abuse the use of generators, as this can lead to negative consequences, such as the suspension of your account. Use your diamonds conscientiously and follow the rules of the game to avoid complications.</p>
-
-          <a href="/diamondcodes">
-            <button className="bg-primary5  rounded-md flex items-center justify-between w-full text-white px-8 py-2 font-bold text-[22px] mt-5">
-              Diamond Codes on Free Fire
+          <a href="/howtoget"
+            className='flex items-center justify-center'
+          >
+            <button className="bg-primary5  rounded-md flex items-center justify-center  text-white px-8 py-2 font-bold text-[22px] mt-5">
+              HOW TO RESCUE
               <span className="ml-2 flex items-center">
                 <img src="/gameImage/svg/true.svg" alt="true" className="h-5 w-5" />
               </span>
             </button>
           </a>
-
-
-          <div className="pt-5 font-bold">
-            <div className="font-bold text-[30px] md:text-[25px]">Download App and get Free 5000 Diamond 💎</div>
-            <a href="https://play.google.com/store/apps/details?id=com.skintool.diamond.newemote">
-              <div >
-                <img src="/gameImage/unnamed.png" className="h-[200px] mt-5" />
-              </div>
-            </a>
-            <a href="https://play.google.com/store/apps/details?id=com.skintool.diamond.newemote">
-              <div className="flex item-center  justify-center ">
-                <button type="button" className=" btn btn-pulse bg-primary5  rounded-md flex items-center justify-between text-white px-8 py-2 font-bold text-[20px] mt-5">
-                  INSTALL APP 💎
-                </button>
-              </div>
-            </a>
-
-
-            <p className='pt-5 text-primary4'><strong className="text-[20px] md:text-[18px]">Step 1 : </strong> Click the above button to download the App.
-            </p>
-            <p className='pt-5 text-primary4'><strong className="text-[20px]  md:text-[18px]">Step 2 : </strong> Open the App and use it for 5 Days.
-            </p>
-            <p className='pt-5 text-primary4'><strong className="text-[20px]  md:text-[18px]">Step 3 : </strong>  After the Completion of the 5th Day You will get redemption.
-            </p>
-            <p className='pt-5 text-primary4'><strong className="text-[20px]  md:text-[18px]">Step 4 : </strong> You just have to copy and paste it to our site for redemption And you get 5000 Diamond 💎 in your Free Fire Account.
-            </p>
-
-          </div>
 
           <p className=" text-primary4 pt-5">BBy following these simple steps, you can use a Diamond Generator to get valuable resources in your favorite game without having to spend real money. Have fun and enjoy an even better gaming experience!</p>
 

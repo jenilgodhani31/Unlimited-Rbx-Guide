@@ -1,8 +1,8 @@
-import Freefire from "@containers/freefire";
+import GenerateCode from "@containers/generateCode";
 import Head from "next/head";
 import { Fragment } from "react";
 
-function freefire() {
+function generatecode() {
   return (
     <Fragment>
       <Head>
@@ -11,10 +11,10 @@ function freefire() {
           crossorigin="anonymous"></script>
       </Head>
       <div>
-        <Freefire />
+        <GenerateCode />
       </div>
     </Fragment>
   );
 }
 
-export default freefire;
+export default generatecode;

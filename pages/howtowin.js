@@ -1,8 +1,8 @@
-import Freefire from "@containers/freefire";
+import HowToWin from "@containers/howToWin";
 import Head from "next/head";
 import { Fragment } from "react";
 
-function freefire() {
+function howtowin() {
   return (
     <Fragment>
       <Head>
@@ -11,10 +11,10 @@ function freefire() {
           crossorigin="anonymous"></script>
       </Head>
       <div>
-        <Freefire />
+        <HowToWin />
       </div>
     </Fragment>
   );
 }
 
-export default freefire;
+export default howtowin;
