@@ -6,7 +6,7 @@ function Visit() {
   return (
     <Fragment>
       <Head>
-        <title>{"fingameon "}</title>
+        <title>{"Rbx Total Guide "}</title>
         
       </Head>
       <div

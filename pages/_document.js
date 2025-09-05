@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta charSet="utf-8" />
-        <link rel="icon" href="/gameImage/launch-icon.png" />
+        <link rel="icon" href="/gameImage/favicon.png" />
         <link rel="stylesheet" type="text/css" />
         <link
           rel="stylesheet"

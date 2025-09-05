@@ -1,9 +1,7 @@
 import { GA4Initializer } from "@components/gtag";
 import "../styles/globals.css";
-import { Fragment } from "react";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Footer from "@components/Footer";
 import NavBar from "@components/navbar";
 
 export default function App({ Component, pageProps }) {
@@ -31,9 +29,6 @@ export default function App({ Component, pageProps }) {
         pauseOnHover
         theme="light"
       />
-      <div className="bg-white w-full ls:w-[360px] flex md:justify-center md:mx-auto ">
-        <Footer />
-      </div>
 
     </div>
   );

@@ -148,7 +148,7 @@ function Home() {
 
       </div>
 
-      {/* {isOpen && (
+      {isOpen && (
         <Modal
           outerClassName="border-[1px] border-white"
           isOpen={isOpen}
@@ -156,7 +156,7 @@ function Home() {
         >
           <Ads display={true} data-ad-slot="2593755237" />
         </Modal>
-      )} */}
+      )}
     </Fragment>
   );
 }
