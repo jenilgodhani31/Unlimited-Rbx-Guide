@@ -48,6 +48,8 @@ function GenerateCode() {
 
           }
 
+          <p className="pt-5 text-primary4">See here and try <samp className="font-bold">"YF7I Q6MM BD0C DI02" </samp></p>
+
           <p className="pt-5 text-primary4">One of the ways to enrich the in-game experience is through gift cards, which offer Robux, exclusive items and much more.</p>
           <p className="pt-5 text-primary4">In this article, we'll explore how to generate gift card codes on Roblox, as well as tips for avoiding fraud.</p>
 
@@ -160,7 +162,7 @@ function GenerateCode() {
             </button>
           </a>
           <p className=" text-primary4 pt-5">We hope this guide has helped you better understand gift cards in Roblox!</p>
-        <Ads display={true} data-ad-slot="8658210647" />
+          <Ads display={true} data-ad-slot="8658210647" />
         </div>
       </div>
     </Fragment>
