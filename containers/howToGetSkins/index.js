@@ -5,12 +5,8 @@ function HowToGetSkins() {
     return (
         <Fragment>
             <div className="mx-auto  ls:w-[360px]  bg-white">
-
-
                 <div className="flex flex-col  justify-center pt-10 px-5 pb-5">
-
-                    <Ads display={true} data-ad-slot="2593755237" />
-
+                    <Ads display={true} data-ad-slot="8658210647" />
                     <div className=" text-black  font-bold pb-2 text-[22px]">
                         How to Get Robux and Skins for Free on Roblox
                     </div>
@@ -48,7 +44,6 @@ function HowToGetSkins() {
                         </li>
                     </ul>
 
-
                     <a href="/howtowin" className="flex items-center justify-center">
                         <button className="bg-primary5  rounded-md flex items-center justify-between  text-white px-2 py-2 font-bold text-[22px] mt-5">
                             New Free Robux Codes
@@ -57,9 +52,6 @@ function HowToGetSkins() {
                             </span>
                         </button>
                     </a>
-
-
-
 
                     <div className=" text-black pt-5 font-bold  text-[24px]">
                         Roblox Code - Inside the Game
@@ -108,11 +100,7 @@ function HowToGetSkins() {
                             MundoVivo
                         </li>
                     </ul>
-                    <Ads
-                        data-ad-slot="3067284912"
-                        data-ad-format="auto"
-                        data-full-width-responsive="true"
-                    />
+                    <Ads display={true} data-ad-slot="8658210647" />
                     <div className=" text-red-500 underline  pt-5 font-semi  bold pb-2 text-[22px]">
                         Anime Fighters Simulator
                     </div>
@@ -184,7 +172,6 @@ function HowToGetSkins() {
                         <li className="pt-2 font-bold">subtokelvingts</li>
                     </ul>
 
-
                     <p className="pt-5 text-primary4">So that's it folks, I hope you've enjoyed the content of this article. If you have any questions or think there's something missing to complement this article, please leave your comments below, as I'll be answering them and keeping you up to date.</p>
                     <p className="pt-5 text-primary4">Also, don't forget to activate the site's notification bell to receive the latest Roblox code updates and the latest news from the geek world.</p>
                     <a href="/howtowin" className="flex items-center justify-center">
@@ -196,6 +183,7 @@ function HowToGetSkins() {
                         </button>
                     </a>
                     <p className="pt-5 text-primary4">ATTENTION: Keep an eye on this article, as all new codes that are discovered will be added daily so that you can redeem them.</p>
+                    <Ads display={true} data-ad-slot="8658210647" />
                 </div>
             </div>
         </Fragment>

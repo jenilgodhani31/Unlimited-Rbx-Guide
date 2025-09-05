@@ -9,7 +9,7 @@ function HowToGet() {
 
         <div className="flex flex-col  justify-center pt-10 px-5 pb-5">
 
-          <Ads display={true} data-ad-slot="2593755237" />
+          <Ads display={true} data-ad-slot="8658210647" />
 
           <div className=" text-black  font-bold pb-2 text-[22px]">
             How to Get Robux and Skins for Free on Roblox
@@ -57,11 +57,6 @@ function HowToGet() {
           <p className="pt-5 text-primary4"><strong> Step two: </strong>When you open the application, click on "Start Now". Then enter your phone number. After providing the number, you will receive a confirmation code via SMS. After confirmation, enter your full name </p>
           <p className="pt-5 text-primary4"><strong> Step Three: </strong>After following the steps above, it's time to start collecting points. Want to know how? </p>
 
-          <Ads
-            data-ad-slot="3067284912"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          />
 
           <div className=" text-black pt-5 font-bold pb-2 text-[26px]">
             Ways to accumulate points:
@@ -92,6 +87,8 @@ function HowToGet() {
           <p className="pt-5 text-primary4">This application is developed by Google and, as its name suggests, its purpose is to collect the opinions of its users. It is based on various questions provided by companies, and by answering these questions, you are helping these companies to create products that better meet their customers' needs.</p>
           <p className="pt-5 text-primary4">But then, are you interested in learning how to use this application? Let's go.</p>
 
+          <Ads display={true} data-ad-slot="8658210647" />
+
           <p className="pt-5 text-primary4"><strong>First step: </strong>To get started, you need to download this application to your smartphone system: </p>
           <p className="pt-5 text-primary4"><strong>Step two: </strong>Log in to the app with your Google account and accept the terms of service. Do you agree to the terms of service? Now fill in some personal details, such as age, gender, country of residence, language and more. </p>
           <p className="pt-5 text-primary4"><strong>Step three: </strong>With your account created, now it's time to start answering the questions that pop up and collecting points </p>
@@ -110,6 +107,7 @@ function HowToGet() {
             </button>
           </a>
           <p className="pt-5 text-primary4">With just a few clicks, you can get as many Robux as you want in your Roblox account, and best of all, for free. So, are you ready to redeem your codes? Let's go!</p>
+          <Ads display={true} data-ad-slot="8658210647" />
         </div>
       </div>
     </Fragment>

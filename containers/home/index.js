@@ -24,7 +24,7 @@ function Home() {
 
 
         <div className="flex flex-col  justify-center pt-10 px-5 pb-5">
-          <Ads display={true} data-ad-slot="2593755237" />
+          <Ads display={true} data-ad-slot="8658210647" />
 
           <div className=" text-black  font-bold pb-2 text-[25px] pt-5">
             How to Earn Robux in Roblox: Tips and Tricks
@@ -57,11 +57,7 @@ function Home() {
           <p className="pt-5 text-primary4">If you want to know how to get Robux and skins in Roblox without paying anything, then this post is for you. Roblox is a sandbox-style game that allows players to create games within the platform, and each server can support up to 100 players.</p>
           <p className="pt-5 text-primary4">As the platform (in this case Roblox) is free, you can use Robux, the platform's virtual currency, to buy cosmetics and game passes.</p>
 
-          <Ads
-            data-ad-slot="3067284912"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          />
+
 
           <p className="pt-5 text-primary4">The customization possible thanks to Robux allows you to stand out from the crowd, keep your character as stylized as possible and make it easier to complete and progress in the game.</p>
 
@@ -83,6 +79,7 @@ function Home() {
           <p className=" pt-5 text-primary4">These are applications that help you buy Robux and are not hacks or cheats of any kind. Therefore, the integrity of the account is guaranteed. Below are some apps that also offer this option.</p>
 
 
+
           <div className=" text-black pt-5 font-bold text-[26px]">
             How to earn Robux with Roblox itself
           </div>
@@ -95,6 +92,8 @@ function Home() {
           <p className="pt-5 text-primary4">Roblox has an affiliate system, but many people aren't aware of it. This system allows users to get Robux for free. It's quite simple to use. Just share the link to the item in the store. A certain amount of Robux will be awarded when someone buys using the link.</p>
           <p className="pt-5  text-primary4">However, it is important to be careful. You should get an affiliate link, not just copy the product link and expect to get paid when the product is bought. Affiliate links track who shares them. That's worth emphasizing. To get the link, with your account connected to the Roblox website, use the link generated from the share buttons on social networks.</p>
           <p className="pt-5 text-primary4">A good strategy for increasing sales is to promote your product on social networks such as Instagram, TikTok, Kwai, Youtube, among others, and create a video in which you insert your affiliate link. This practice works for both store items and games. Use and abuse your creativity to promote your affiliate links.</p>
+
+          <Ads display={true} data-ad-slot="8658210647" />
 
           <div className=" text-black pt-5 font-bold pb-2 text-[25px]">
             Create Your Roblox Game
@@ -140,10 +139,11 @@ function Home() {
           </a>
           <p className="pt-5 text-primary4"> Now that you've discovered the secrets of free diamonds in Free Fire and understand why these methods are essential to enhancing your gaming experience, it's time to take action! Don't waste any more time! Click on the button below and find out everything!</p>
 
-<a href="/disclaimer"> 
-   <p className="pt-5 text-center underline  text-[18px] text-red-500 ">Disclaimer </p>
+          <a href="/disclaimer">
+            <p className="pt-5 text-center underline  text-[18px] text-red-500 ">Disclaimer </p>
 
-  </a>         
+          </a>
+          <Ads display={true} data-ad-slot="8658210647" />
         </div>
 
       </div>
@@ -154,7 +154,7 @@ function Home() {
           isOpen={isOpen}
           onClose={() => setIsOpen(false)}
         >
-          <Ads display={true} data-ad-slot="2593755237" />
+          <Ads display={true} data-ad-slot="3609155839" />
         </Modal>
       )}
     </Fragment>

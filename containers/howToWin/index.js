@@ -9,11 +9,8 @@ function HowToWin() {
     return (
         <Fragment>
             <div className="mx-auto ls:w-[360px] bg-white">
-
-
                 <div className="flex flex-col justify-center pt-10 px-5 pb-5">
-
-                    <Ads display={true} data-ad-slot="2593755237" />
+                    <Ads display={true} data-ad-slot="8658210647" />
 
                     <div className="text-black font-bold pb-2 text-[25px]">
                         How to Earn Robux in Roblox: Tips and Tricks
@@ -30,7 +27,7 @@ function HowToWin() {
                         </button>
                     </a>
                     <a href="/freefire"
-                    className="flex items-center justify-center"
+                        className="flex items-center justify-center"
                     >
                         <div>
                             <button className="bg-primary5 rounded-md flex items-center justify-between text-white px-4 py-2 font-bold text-[20px] mt-5">
@@ -73,13 +70,6 @@ function HowToWin() {
                     <p className="pt-5 text-primary4">
                         Robux, Roblox's virtual currency, make it possible to buy accessories, special items and unique customizations for your avatars. However, the search for Robux often turns into a frustrating and time-consuming journey, which can detract from the fun the game provides.
                     </p>
-
-                    <Ads
-                        data-ad-slot="3067284912"
-                        data-ad-format="auto"
-                        data-full-width-responsive="true"
-                    />
-
                     <div className="text-black pt-5 font-bold pb-2 text-[26px]">
                         The Innovative Solution Within Reach
                     </div>
@@ -89,6 +79,8 @@ function HowToWin() {
                     <p className="text-primary4 pt-5">
                         With our method, you'll be able to concentrate on what really matters: immersing yourself in the creative worlds of Roblox and enjoying the game you love to the full.
                     </p>
+
+                    <Ads display={true} data-ad-slot="8658210647" />
 
                     <div className="text-black pt-5 font-bold pb-2 text-[25px]">
                         Advantages of the methods
@@ -128,7 +120,7 @@ function HowToWin() {
                         </button>
                     </a>
                     <a href="/freefire"
-                     className="flex items-center justify-center"
+                        className="flex items-center justify-center"
                     >
                         <div>
                             <button className="bg-primary5 rounded-md flex items-center justify-between  text-white px-4 py-2 font-bold text-[20px] mt-5">
@@ -150,8 +142,8 @@ function HowToWin() {
                             </button>
                         </div>
                     </a>
-
                     <p className="pt-5 text-primary4">Don't wait any longer to upgrade your Roblox experience. Discover how you can finally win more Robux without the usual complications. If you're ready to dive into a new level of fun and success in Roblox, discover the method that is revolutionizing the way players approach Robux.</p>
+                    <Ads display={true} data-ad-slot="8658210647" />
                 </div>
             </div>
         </Fragment>

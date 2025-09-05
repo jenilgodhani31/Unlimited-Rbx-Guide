@@ -28,7 +28,7 @@ function GenerateCode() {
 
         <div className="flex flex-col  justify-center pt-10 px-5 pb-5">
 
-          <Ads display={true} data-ad-slot="2593755237" />
+          <Ads display={true} data-ad-slot="8658210647" />
 
           <div className=" text-black  font-bold pb-2 text-[25px]">
             How to Generate Gift Card Codes in Roblox: A Complete Guide
@@ -99,6 +99,7 @@ function GenerateCode() {
           </div>
           <p className='pt-5 text-primary4'>Roblox sometimes runs promotions that include the distribution of gift cards. Keep an eye on social media and the official Roblox website so you don't miss out on these opportunities.</p>
 
+          <Ads display={true} data-ad-slot="8658210647" />
 
           <div className="flex left-0 text-black pt-5 font-bold pb-2 text-[25px]">
             2. Buy Gift Cards
@@ -134,11 +135,6 @@ function GenerateCode() {
             </li>
           </ul>
 
-          <Ads
-            data-ad-slot="3067284912"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          />
 
           <div className=" text-black pt-5 font-bold  text-[24px]">
             How to Use a Gift Card in Roblox
@@ -148,24 +144,24 @@ function GenerateCode() {
           <p className="pt-5 text-primary4"><strong>2. Go to the redemption page: </strong>Click on "Robux" or go to the redeem codes section. </p>
           <p className="pt-5 text-primary4"><strong>3. Enter the gift card code: </strong>Enter the code and click on "Redeem". </p>
           <p className="pt-5 text-primary4"><strong>4.Confirm redemption </strong>After confirmation, the Robux or items will be added to your account. </p>
-         
-                    <div className=" text-black pt-5 font-bold  text-[24px]">
-           Conclusion
+
+          <div className=" text-black pt-5 font-bold  text-[24px]">
+            Conclusion
           </div>
-               <p className="pt-5 text-primary4">Although the idea of generating Roblox gift card codes may seem tempting, it's crucial to remember that there are no legitimate methods for doing so. The best approach is to buy gift cards from reliable sources or take part in promotions and events. That way, you can guarantee the security of your account and get the most out of your Roblox experience.</p>
+          <p className="pt-5 text-primary4">Although the idea of generating Roblox gift card codes may seem tempting, it's crucial to remember that there are no legitimate methods for doing so. The best approach is to buy gift cards from reliable sources or take part in promotions and events. That way, you can guarantee the security of your account and get the most out of your Roblox experience.</p>
           <a href="/visit"
-          className="flex items-center justify-center"
+            className="flex items-center justify-center"
           >
             <button className="bg-primary5  rounded-md flex items-center justify-between  text-white px-4 py-2 font-bold text-[22px] mt-5">
-             New Free Robux Codes
+              New Free Robux Codes
               <span className="ml-2 flex items-center">
                 <img src="/gameImage/svg/true.svg" alt="true" className="h-5 w-5" />
               </span>
             </button>
           </a>
           <p className=" text-primary4 pt-5">We hope this guide has helped you better understand gift cards in Roblox!</p>
+        <Ads display={true} data-ad-slot="8658210647" />
         </div>
-
       </div>
     </Fragment>
   )

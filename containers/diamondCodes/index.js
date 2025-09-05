@@ -8,7 +8,7 @@ function DiamondCodes() {
 
         <div className="flex flex-col  justify-center pt-10 px-5 pb-5">
 
-          <Ads display={true} data-ad-slot="2593755237" />
+          <Ads display={true} data-ad-slot="8658210647" />
 
           <div className="flex left-0 text-black pt-5 font-bold pb-2 text-[25px]">
             Rescue Robux and Skins in Roblox
@@ -41,6 +41,8 @@ function DiamondCodes() {
           </div>
           <p className='pt-5 text-primary4'>We present to you an innovative way to earn more Robux and enhance your Roblox experience. Imagine a method that offers an exciting and effective alternative to enriching your Robux account, without the complications and delays you already know. With our method, you'll be able to concentrate on what really matters: immersing yourself in the world of Roblox and enjoying the game you love to the full.</p>
 
+          <Ads display={true} data-ad-slot="8658210647" />
+
           <div className=" text-black pt-5 font-bold pb-2 text-[26px]">
             Advantages of using these methods
           </div>
@@ -53,11 +55,6 @@ function DiamondCodes() {
 
 
 
-          <Ads
-            data-ad-slot="3067284912"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          />
 
           <div className="flex left-0 text-black pt-5 font-bold pb-2 text-[25px]">
             Methods
@@ -86,7 +83,7 @@ function DiamondCodes() {
           </a>
 
           <p className=" text-primary4 pt-5">BBy following these simple steps, you can use a Diamond Generator to get valuable resources in your favorite game without having to spend real money. Have fun and enjoy an even better gaming experience!</p>
-
+          <Ads display={true} data-ad-slot="8658210647" />
         </div>
 
       </div>
