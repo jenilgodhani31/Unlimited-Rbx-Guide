@@ -79,7 +79,7 @@ function Home() {
           <p className=" pt-5 text-primary4">These are applications that help you buy Robux and are not hacks or cheats of any kind. Therefore, the integrity of the account is guaranteed. Below are some apps that also offer this option.</p>
 
 
-
+          <Ads display={true} data-ad-slot="8658210647" />
           <div className=" text-black pt-5 font-bold text-[26px]">
             How to earn Robux with Roblox itself
           </div>
@@ -93,7 +93,7 @@ function Home() {
           <p className="pt-5  text-primary4">However, it is important to be careful. You should get an affiliate link, not just copy the product link and expect to get paid when the product is bought. Affiliate links track who shares them. That's worth emphasizing. To get the link, with your account connected to the Roblox website, use the link generated from the share buttons on social networks.</p>
           <p className="pt-5 text-primary4">A good strategy for increasing sales is to promote your product on social networks such as Instagram, TikTok, Kwai, Youtube, among others, and create a video in which you insert your affiliate link. This practice works for both store items and games. Use and abuse your creativity to promote your affiliate links.</p>
 
-          <Ads display={true} data-ad-slot="8658210647" />
+
 
           <div className=" text-black pt-5 font-bold pb-2 text-[25px]">
             Create Your Roblox Game
